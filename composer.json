@@ -1,0 +1,20 @@
+{
+    "name": "sitawit/yii2-piwik",
+    "description": "The Piwiki plugin for Yii 2 framework",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sitawit Suteepohnwiroj",
+            "email": "sitawit@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sitawit\\yii2-piwik\\": ""
+        }
+    }
+}
