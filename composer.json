@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sitawit\\yii2-piwik\\": ""
+            "sitawit\\piwik\\": ""
         }
     }
 }
