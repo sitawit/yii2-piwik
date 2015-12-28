@@ -113,7 +113,7 @@ JS;
 </noscript>     
 <!-- End Piwik No Script -->       
 HTML;
-            echo Html::encode($html);
+            echo $html;
         }
     }
 
