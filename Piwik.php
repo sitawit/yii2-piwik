@@ -80,7 +80,7 @@ class Piwik extends Component implements BootstrapInterface
     {
         if ($this->enable === true) {
             $js = <<< JS
-<!-- Piwik Js -->
+// Piwik Js
   var {$this->variableName} = {$this->variableName} || [];
   {$this->variableName}.push(['trackPageView']);
   {$this->variableName}.push(['enableLinkTracking']);
@@ -91,7 +91,7 @@ class Piwik extends Component implements BootstrapInterface
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
-<!-- End Piwik Js -->
+// End Piwik Js
 JS;
             Yii::$app->view->registerJs($js, View::POS_END);
         }
